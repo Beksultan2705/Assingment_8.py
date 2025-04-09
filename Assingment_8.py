@@ -40,7 +40,7 @@ class EmployeeDAO:
         cursor = self.conn.execute("SELECT COUNT(*) FROM employee")
         if cursor.fetchone()[0] == 0:
             self.insert(Employee(name="Артем", position="TeamLead", salary=125000, hire_date="2022-01-29"))
-            self.insert(Employee(name="Микаил", position="Main_Programmer", salary=80000, hire_date="2024-03-10"))
+            self.insert(Employee(name="Микаил", position="MainProgrammer", salary=80000, hire_date="2024-03-10"))
             self.insert(Employee(name="Наталья", position="Progameer", salary=65000, hire_date="2023-02-08"))
 
 
