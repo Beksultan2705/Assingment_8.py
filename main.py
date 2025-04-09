@@ -1,4 +1,4 @@
-from Assignment_8 import Employee, EmployeeDAO
+from Employee_DB import Employee, EmployeeDAO
 
 def main():
     db = EmployeeDAO()
